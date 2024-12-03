@@ -8,11 +8,11 @@ module.exports = {
 				whatsapp: "linear-gradient(to bottom, #42ec61, #17c83d)",
 				instagram:
 					"radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)",
-				bannerImage: 'url("/assets/img/background.webp")',
+				bannerImage: 'url("/src/images/index/background.webp")',
 				gradientOverlay:
 					"linear-gradient(to bottom, rgba(8, 51, 68, 0) 0%, rgba(8, 51, 68, 1) 100%)",
 				gradientOverlaySm:
-					"linear-gradient(to bottom, rgba(8, 51, 68, 0) 0%, rgba(8, 51, 68, 1) 50%,rgba(8, 51, 68, 1) 100%)",
+					"linear-gradient(to bottom, rgba(8, 51, 68, 0) 0%, rgba(8, 51, 68, 1) 50%,rgba(8, 51, 68, 1) 100%",
 			},
 		},
 	},

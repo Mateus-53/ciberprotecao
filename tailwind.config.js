@@ -11,8 +11,8 @@ module.exports = {
 				bannerImage: 'url("/src/images/index/background.webp")',
 				gradientOverlay:
 					"linear-gradient(to bottom, rgba(8, 51, 68, 0) 0%, rgba(8, 51, 68, 1) 100%)",
-				gradientOverlaySm:
-					"linear-gradient(to bottom, rgba(8, 51, 68, 0) 0%, rgba(8, 51, 68, 1) 50%,rgba(8, 51, 68, 1) 100%",
+				gradientOverlayLg:
+					"linear-gradient(to bottom, rgba(8, 51, 68, 0) 0%, rgba(8, 51, 68, 1) 50%, rgba(8, 51, 68, 1) 100%)",
 			},
 		},
 	},

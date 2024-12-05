@@ -9,3 +9,7 @@ window.addEventListener("scroll", () => {
 		backToTopBtn.classList.remove("flex");
 	}
 });
+
+backToTopBtn.addEventListener("click", () =>{
+	window.scrollTo(0,0)
+})

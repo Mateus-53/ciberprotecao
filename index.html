@@ -12,6 +12,7 @@
     <meta property="og:image" content="src/images/global/shield.png" />
     <link href="src/css/tailwind.css" rel="stylesheet">
     <link rel="shortcut icon" href="src/images/global/favicon.ico" type="image/x-icon">
+    <script src="src/js/scroll-section.js" defer></script>
     <script src="src/js/scroll-top.js" defer></script>
     <title>Proteja-se no Mundo Digital - Golpes Digitais e Cibersegurança</title>
 </head>
@@ -256,11 +257,12 @@
         </div>
     </section>
     <!-- Depoimentos -->
-    <section class="flex flex-col w-full gap-8 p-20 transition-all ease-in-out bg-gray-100 max-md:px-10 max-sm:px-5">
-        <h2 class="text-4xl font-bold text-cyan-950">Depoimentos</h2>
-        <div class="flex gap-8 max-lg:overflow-x-scroll max-lg:w-full snap-mandatory">
+    <section
+        class="flex flex-col w-full h-full gap-8 p-20 transition-all ease-in-out bg-gray-100 max-md:px-10 max-sm:px-5">
+        <h2 class="text-4xl font-bold text-cyan-950 max-sm:leading-9 max-md:text-3xl">Depoimentos</h2>
+        <div class="flex flex-col gap-4">
             <div
-                class="shrink-0 w-1/3 max-lg:w-1/2 max-sm:w-3/4 p-5 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)] bg-gray-50">
+                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50  shrink-0 w-full h-min snap-start">
                 <div class="flex items-center gap-2">
                     <picture>
                         <img src="src/images/index/profile-picture.svg" alt="Foto de perfil"
@@ -268,12 +270,81 @@
                     </picture>
                     <div class="w-full">
                         <p class="font-medium text-cyan-950">Anônimo</p>
-                        <p class="text-sm leading-4 text-gray-500">Profissão - 100 anos</p>
+                        <p class="text-sm leading-4 text-gray-800">Estudante - 22 anos</p>
                     </div>
                 </div>
-                <p class="py-4 text-gray-950">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita nihil
-                    repudiandae magni aliquid similique explicabo eveniet quae quos sed velit, accusamus maxime. Aliquam
-                    eaque ut quisquam, odio consequuntur deleniti tempora?</p>
+                <p class="py-4 italic text-gray-700">"Recebi uma mensagem dizendo que um pessoal tinha pegado meu
+                    cachorro e que deveria fazer uma transação de 2000,00 reais,
+                    eles sabiam meu nome completo. Mas soube que era mentira pois não tenho cachorro!"</p>
+            </div>
+            <div
+                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50  shrink-0 w-full h-min snap-start">
+                <div class="flex items-center gap-2">
+                    <picture>
+                        <img src="src/images/index/profile-picture.svg" alt="Foto de perfil"
+                            class="w-12 rounded-full pointer-events-none select-none" draggable="false" loading="lazy">
+                    </picture>
+                    <div class="w-full">
+                        <p class="font-medium text-cyan-950">Anônimo</p>
+                        <p class="text-sm leading-4 text-gray-800">Estudante - 17 anos</p>
+                    </div>
+                </div>
+                <p class="py-4 italic text-gray-700">"Um dia, recebi uma mensagem no Instagram de um perfil que parecia
+                    ser de uma amiga. Ela disse que tinha trocado de
+                    número e precisava da minha ajuda urgente pra recuperar a conta dela. Ela pediu um código que seria
+                    enviado pro meu
+                    celular e fazia parte do processo de recuperação. Quando chegou o código, aí eu mandei pra ela pra
+                    poder ajudar. Só que,
+                    depois de alguns minutos, fui desconectado da minha própria conta. Foi um susto enorme. Os golpistas
+                    começaram a usar o
+                    meu perfil pra pedir dinheiro pros meus amigos, e eu só percebi o que estava acontecendo quando
+                    comecei a receber
+                    ligações deles todos desconfiados. Foi uma complicação enorme pra recuperar essa bendita conta de
+                    novo."</p>
+            </div>
+            <div
+                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50  shrink-0 w-full h-min snap-start">
+                <div class="flex items-center gap-2">
+                    <picture>
+                        <img src="src/images/index/profile-picture.svg" alt="Foto de perfil"
+                            class="w-12 rounded-full pointer-events-none select-none" draggable="false" loading="lazy">
+                    </picture>
+                    <div class="w-full">
+                        <p class="font-medium text-cyan-950">Anônimo</p>
+                        <p class="text-sm leading-4 text-gray-800">Estudante de Tecnologia da Informação - 22 anos</p>
+                    </div>
+                </div>
+                <p class="py-4 italic text-gray-700">"Infelizmente, já sofri um ataque digital no semestre passado.
+                    Recebi um e-mail que parecia ser da faculdade, pedindo
+                    para atualizar meus dados no sistema. Sem desconfiar, cliquei no link e acabei inserindo informações
+                    pessoais, como CPF
+                    e dados bancários. Só percebi que era um golpe quando recebi notificações de tentativas de compras
+                    no meu cartão de
+                    crédito. Foi uma péssima lição, mas agora estou muito mais atento a links suspeitos e sempre
+                    verifico a origem das
+                    mensagens antes de agir."</p>
+            </div>
+            <div
+                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50 shrink-0 w-full h-min snap-start">
+                <div class="flex items-center gap-2">
+                    <picture>
+                        <img src="src/images/index/profile-picture.svg" alt="Foto de perfil"
+                            class="w-12 rounded-full pointer-events-none select-none" draggable="false" loading="lazy">
+                    </picture>
+                    <div class="w-full">
+                        <p class="font-medium text-cyan-950">Anônimo</p>
+                        <p class="text-sm leading-4 text-gray-800">Gerente de Recursos Humanos - 55 anos</p>
+                    </div>
+                </div>
+                <p class="py-4 italic text-gray-700">"Já passei por uma situação desagradável no ambiente de trabalho.
+                    Certo dia, recebi um e-mail aparentemente oficial do
+                    setor de TI da empresa, solicitando meu login e senha para 'corrigir um problema no sistema
+                    interno'. Como o e-mail
+                    parecia legítimo, enviei os dados. Mais tarde, descobri que era um ataque de phishing e que os
+                    invasores tinham acessado
+                    documentos confidenciais. Desde então, a empresa intensificou as orientações sobre segurança
+                    digital, e eu passei a
+                    adotar uma postura mais cautelosa em relação a mensagens e solicitações inesperadas."</p>
             </div>
         </div>
     </section>

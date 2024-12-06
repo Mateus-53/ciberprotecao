@@ -12,6 +12,7 @@
     <meta property="og:image" content="src/images/global/shield.png" />
     <link href="src/css/tailwind.css" rel="stylesheet">
     <link rel="shortcut icon" href="src/images/global/favicon.ico" type="image/x-icon">
+    <script src="src/js/animation.js"></script>
     <script src="src/js/scroll-section.js" defer></script>
     <script src="src/js/scroll-top.js" defer></script>
     <title>Proteja-se no Mundo Digital - Golpes Digitais e Cibersegurança</title>
@@ -24,16 +25,17 @@
         <div
             class="flex items-center justify-between w-full h-screen gap-2 px-20 transition-all ease-in-out bg-gradientOverlay max-md:px-10 max-sm:px-5 max-lg:flex-col-reverse max-lg:items-start max-lg:justify-center max-lg:bg-gradientOverlayLg">
             <div class="flex flex-col w-1/2 gap-3 max-lg:w-full max-xl:w-3/4">
-                <h1 class="text-5xl font-bold text-gray-50 max-sm:text-4xl">Proteja-se no <br><span
+                <h1 class="text-5xl font-bold text-gray-50 max-sm:text-4xl animate-fade">Proteja-se no <br><span
                         class="text-cyan-400">Mundo Digital</span></h1>
-                <p class="text-gray-50">O projeto "Golpes Digitais e Cibersegurança", desenvolvido pela turma de
+                <p class="text-gray-50 animate-fade">O projeto "Golpes Digitais e Cibersegurança", desenvolvido pela
+                    turma de
                     Informática 3, visa conscientizar e proteger a comunidade contr a fraudes e ataques online. Aprenda
                     práticas seguras, identifique riscos e descubra como prevenir golpes
                     digitais de forma prática e acessível.</p>
                 <div class="flex w-full gap-3 max-sm:flex-col">
                     <a href="https://www.instagram.com/infor.3ep/?igsh=NWN1ODYycTNoZWdr" target="_blank">
                         <button
-                            class="flex items-center justify-center h-10 gap-1 px-5 transition-all ease-in-out bg-gray-100 rounded-lg text-cyan-950 group max-sm:w-full hover:bg-gray-50">
+                            class="flex items-center justify-center h-10 gap-1 px-5 transition-all ease-in-out bg-gray-100 rounded-lg text-cyan-950 group max-sm:w-full hover:bg-gray-50 animate-fade">
                             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                                 class="w-6 transition-all ease-in-out fill-current text-cyan-950 group-hover:text-cyan-950">
                                 <path
@@ -46,7 +48,7 @@
                     </a>
                     <a href="https://www.instagram.com/projetosocial.infor3/?igsh=azg1eGszcGR0ajUz" target="_blank">
                         <button
-                            class="flex items-center justify-center h-10 gap-1 px-5 transition-all ease-in-out rounded-lg bg-cyan-400 text-cyan-950 hover:bg-cyan-300 max-sm:w-full">
+                            class="flex items-center justify-center h-10 gap-1 px-5 transition-all ease-in-out rounded-lg bg-cyan-400 text-cyan-950 hover:bg-cyan-300 max-sm:w-full animate-fade">
                             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                                 class="w-6 fill-current text-cyan-950">
                                 <path
@@ -59,7 +61,7 @@
                     </a>
                 </div>
             </div>
-            <picture class="w-1/3 max-lg:w-1/2 max-sm:w-full">
+            <picture class="w-1/3 max-lg:w-1/2 max-sm:w-full animate-fade">
                 <img src="src/images/index/logo.svg" alt="Logo do Projeto Social"
                     class="w-full pointer-events-none select-none" draggable="false" loading="lazy">
             </picture>
@@ -68,19 +70,23 @@
     <!-- Sobre o Projeto -->
     <section
         class="flex items-center w-full h-screen gap-12 p-20 transition-all ease-in-out bg-cyan-950 max-md:px-10 max-sm:px-5 max-md:flex-col max-md:h-max">
-        <img src="src/images/index/logo-shield.svg" alt="Escudo do Projeto Social"
-            class="w-1/5 animate-rotate-y animate-infinite animate-duration-[3000ms] max-md:hidden pointer-events-none select-none"
-            draggable="false" loading="lazy">
+        <picture class="animate-fade w-1/5 max-md:hidden">
+            <img src="src/images/index/logo-shield.svg" alt="Escudo do Projeto Social"
+                class="w-full animate-rotate-y animate-infinite animate-duration-[3000ms] max-md:hidden pointer-events-none  select-none"
+                draggable="false" loading="lazy">
+        </picture>
         <div class="flex flex-col w-3/4 gap-8 max-md:w-full">
-            <h2 class="text-4xl font-bold text-gray-50 max-sm:leading-8 max-md:text-3xl">Sobre o <span
+            <h2 class="text-4xl font-bold text-gray-50 max-sm:leading-8 max-md:text-3xl animate-fade">Sobre o <span
                     class="text-cyan-400">Projeto Social</span></h2>
-            <p class="text-gray-50">A turma de Informática 3 apresenta o projeto Golpes Digitais e Cibersegurança, uma
+            <p class="text-gray-50 animate-fade">A turma de Informática 3 apresenta o projeto Golpes Digitais e
+                Cibersegurança, uma
                 iniciativa que busca conscientizar e proteger a comunidade contra os riscos crescentes no ambiente
                 digital. Com o aumento de fraudes e ataques cibernéticos, nosso objetivo é compartilhar conhecimentos
                 sobre segurança digital, identificar práticas seguras e oferecer orientações práticas para prevenir
                 golpes online.
             </p>
-            <p class="text-gray-50">Por meio de palestras, oficinas e materiais informativos,iremos capacitar a
+            <p class="text-gray-50 animate-fade">Por meio de palestras, oficinas e materiais informativos,iremos
+                capacitar a
                 comunidade a reconhecer ameaças digitais e a adotar medidas de proteção eficazes. Este projeto reflete
                 nosso compromisso em usar a tecnologia para construir um ambiente online mais seguro e
                 confiável para todos.</p>
@@ -89,11 +95,12 @@
     <!-- Ataques -->
     <section
         class="flex flex-col justify-center w-full h-screen gap-8 p-20 transition-all ease-in-out bg-gray-100 max-md:px-10 max-sm:px-5 max-md:h-max">
-        <h2 class="text-4xl font-bold text-cyan-950 max-sm:leading-9 max-md:text-3xl">Principais Ataques das Redes
+        <h2 class="text-4xl font-bold text-cyan-950 max-sm:leading-9 max-md:text-3xl animate-fade">Principais Ataques
+            das Redes
             Sociais</h2>
         <div class="flex gap-4 max-lg:overflow-x-scroll max-lg:w-full snap-mandatory">
             <div
-                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50  shrink-0 w-1/3 max-lg:w-1/2 max-sm:w-3/4 min-h-80 justify-between snap-start">
+                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50  shrink-0 w-1/3 max-lg:w-1/2 max-sm:w-4/5 min-h-80 justify-between snap-start animate-fade">
                 <h3 class="flex items-center gap-2 text-3xl font-semibold text-cyan-950">
                     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                         class="fill-current w-14 h-14 bg-instagram rounded-xl text-gray-50">
@@ -119,7 +126,7 @@
                 </a>
             </div>
             <div
-                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50  shrink-0 w-1/3 max-lg:w-1/2 max-sm:w-3/4 min-h-80 justify-between snap-start ">
+                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50  shrink-0 w-1/3 max-lg:w-1/2 max-sm:w-4/5 min-h-80 justify-between snap-start animate-fade">
                 <h3 class="flex items-center gap-2 text-3xl font-semibold text-cyan-950">
                     <svg viewBox="0 0 24 25" xmlns="http://www.w3.org/2000/svg"
                         class="fill-current w-14 h-14 bg-facebook rounded-xl text-gray-50">
@@ -144,7 +151,7 @@
                 </a>
             </div>
             <div
-                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50  shrink-0 w-1/3 max-lg:w-1/2 max-sm:w-3/4 min-h-80 justify-between snap-start">
+                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50  shrink-0 w-1/3 max-lg:w-1/2 max-sm:w-4/5 min-h-80 justify-between snap-start animate-fade">
                 <h3 class="flex items-center gap-2 text-3xl font-semibold text-cyan-950">
                     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                         class="fill-current w-14 h-14 bg-whatsapp rounded-xl text-gray-50">
@@ -171,10 +178,11 @@
     <!-- Recuperação -->
     <section
         class="flex flex-col justify-center w-full h-screen gap-8 p-20 transition-all ease-in-out bg-cyan-950 max-md:px-10 max-sm:px-5 max-md:h-max">
-        <h2 class="text-4xl font-bold text-gray-50 max-sm:leading-9 max-md:text-3xl">Proteção e Recuperação de Contas</h2>
+        <h2 class="text-4xl font-bold text-gray-50 max-sm:leading-9 max-md:text-3xl animate-fade">Proteção e Recuperação
+            de Contas</h2>
         <div class="flex gap-4 max-lg:overflow-x-scroll max-lg:w-full snap-mandatory">
             <div
-                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50  shrink-0 w-1/3 max-lg:w-1/2 max-sm:w-3/4 min-h-80 justify-between snap-start">
+                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50  shrink-0 w-1/3 max-lg:w-1/2 max-sm:w-4/5 min-h-80 justify-between snap-start animate-fade">
                 <h3 class="flex items-center gap-2 text-3xl font-semibold text-cyan-950">
                     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                         class="fill-current w-14 h-14 bg-instagram rounded-xl text-gray-50">
@@ -185,9 +193,11 @@
                     </svg>
                     Instagram
                 </h3>
-                <p class="text-cyan-950">Aqui, você encontrará orientações sobre como proteger e recuperar sua conta no Instagram, incluindo métodos de
-                verificação, autenticação de dois fatores e passos para recuperar a conta em casos de esquecimento de senha, invasões ou
-                desativação.</p>
+                <p class="text-cyan-950">Aqui, você encontrará orientações sobre como proteger e recuperar sua conta no
+                    Instagram, incluindo métodos de
+                    verificação, autenticação de dois fatores e passos para recuperar a conta em casos de esquecimento
+                    de senha, invasões ou
+                    desativação.</p>
                 <a href="src/pages/protecao-e-recuperacao/instagram.html" target="_parent" class="w-max max-md:w-full">
                     <button
                         class="flex items-center justify-center h-10 px-5 transition-all ease-in-out rounded-lg text-gray-50 bg-cyan-950 max-md:w-full group hover:bg-cyan-900 max-md:justify-between">Acessar
@@ -200,7 +210,7 @@
                 </a>
             </div>
             <div
-                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50  shrink-0 w-1/3 max-lg:w-1/2 max-sm:w-3/4 min-h-80 justify-between snap-start ">
+                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50  shrink-0 w-1/3 max-lg:w-1/2 max-sm:w-4/5 min-h-80 justify-between snap-start animate-fade">
                 <h3 class="flex items-center gap-2 text-3xl font-semibold text-cyan-950">
                     <svg viewBox="0 0 24 25" xmlns="http://www.w3.org/2000/svg"
                         class="fill-current w-14 h-14 bg-facebook rounded-xl text-gray-50">
@@ -209,9 +219,11 @@
                     </svg>
                     Facebook
                 </h3>
-                <p class="text-cyan-950">As informações abordam métodos de recuperação de conta no Facebook, como e-mail, telefone e ajuda de amigos, além de
-                dicas de segurança, como autenticação de dois fatores e ajustes de privacidade, também oferecendo soluções para
-                problemas comuns e suporte.</p>
+                <p class="text-cyan-950">As informações abordam métodos de recuperação de conta no Facebook, como
+                    e-mail, telefone e ajuda de amigos, além de
+                    dicas de segurança, como autenticação de dois fatores e ajustes de privacidade, também oferecendo
+                    soluções para
+                    problemas comuns e suporte.</p>
                 <a href="src/pages/protecao-e-recuperacao/facebook.html" target="_parent" class="w-max max-md:w-full">
                     <button
                         class="flex items-center justify-center h-10 px-5 transition-all ease-in-out rounded-lg text-gray-50 bg-cyan-950 max-md:w-full group hover:bg-cyan-900 max-md:justify-between">Acessar
@@ -224,7 +236,7 @@
                 </a>
             </div>
             <div
-                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50  shrink-0 w-1/3 max-lg:w-1/2 max-sm:w-3/4 min-h-80 justify-between snap-start">
+                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50  shrink-0 w-1/3 max-lg:w-1/2 max-sm:w-4/5 min-h-80 justify-between snap-start animate-fade">
                 <h3 class="flex items-center gap-2 text-3xl font-semibold text-cyan-950">
                     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
                         class="fill-current w-14 h-14 bg-whatsapp rounded-xl text-gray-50">
@@ -232,9 +244,11 @@
                             d="M19.074 4.89389C17.2091 3.02894 14.6689 2 12.0644 2C6.59814 2 2.12869 6.4373 2.12869 11.9035C2.12869 13.672 2.57885 15.3441 3.44702 16.8875L2.03223 22L7.33769 20.6495C8.78464 21.4212 10.4245 21.8714 12.0965 21.8714C17.5306 21.8392 21.9679 17.4019 21.9679 11.9035C21.9679 9.26688 20.939 6.791 19.074 4.89389ZM12.0322 20.1672C10.5853 20.1672 9.07403 19.7492 7.82001 18.9775L7.49846 18.7846L4.37949 19.5884L5.24766 16.5659L5.05473 16.2444C4.25088 14.926 3.80072 13.3826 3.80072 11.8392C3.80072 7.30547 7.46631 3.63987 12.0322 3.63987C14.2187 3.63987 16.2766 4.50804 17.82 6.05145C19.3634 7.59486 20.2316 9.68489 20.2316 11.9035C20.2959 16.5016 16.566 20.1672 12.0322 20.1672ZM16.566 13.9936C16.3088 13.865 15.119 13.254 14.8297 13.2219C14.6046 13.1254 14.4116 13.0932 14.283 13.3505C14.1544 13.6077 13.6399 14.1222 13.5113 14.3151C13.3827 14.4437 13.2541 14.508 12.9647 14.3473C12.7075 14.2187 11.9358 13.9936 10.9711 13.0932C10.2316 12.4502 9.71711 11.6463 9.62065 11.3569C9.49203 11.0997 9.5885 11.0032 9.74927 10.8424C9.87788 10.7138 10.0065 10.5852 10.103 10.3923C10.2316 10.2637 10.2316 10.135 10.3602 9.97428C10.4888 9.84566 10.3924 9.65274 10.328 9.52412C10.2316 9.3955 9.78142 8.17364 9.55634 7.65917C9.36342 7.1447 9.13834 7.24116 9.00972 7.24116C8.8811 7.24116 8.68817 7.24116 8.55956 7.24116C8.43094 7.24116 8.1094 7.27331 7.91647 7.5627C7.69139 7.81994 7.0483 8.43087 7.0483 9.65273C7.0483 10.8746 7.91647 12 8.07724 12.2251C8.20586 12.3537 9.84573 14.8939 12.2895 15.9871C12.8682 16.2444 13.3184 16.4051 13.7043 16.5338C14.283 16.7267 14.8297 16.6624 15.2477 16.6302C15.73 16.5981 16.6946 16.0514 16.9197 15.4405C17.1126 14.8939 17.1126 14.3473 17.0483 14.2508C16.984 14.1865 16.7911 14.09 16.566 13.9936Z" />
                     </svg> Whatsapp
                 </h3>
-                <p class="text-cyan-950">As informações trazem dicas para proteger sua conta no WhatsApp contra golpes, como ativar a verificação em duas etapas,
-                ajustar privacidade e reconhecer mensagens suspeitas, além de orientações práticas para recuperar contas em caso de
-                clonagem ou acesso indevido.</p>
+                <p class="text-cyan-950">As informações trazem dicas para proteger sua conta no WhatsApp contra golpes,
+                    como ativar a verificação em duas etapas,
+                    ajustar privacidade e reconhecer mensagens suspeitas, além de orientações práticas para recuperar
+                    contas em caso de
+                    clonagem ou acesso indevido.</p>
                 <a href="src/pages/protecao-e-recuperacao/whatsapp.html" target="_parent" class="w-max max-md:w-full">
                     <button
                         class="flex items-center justify-center h-10 px-5 transition-all ease-in-out rounded-lg text-gray-50 bg-cyan-950 max-md:w-full group hover:bg-cyan-900 max-md:justify-between">Acessar
@@ -251,10 +265,10 @@
     <!-- Depoimentos -->
     <section
         class="flex flex-col w-full h-full gap-8 p-20 transition-all ease-in-out bg-gray-100 max-md:px-10 max-sm:px-5">
-        <h2 class="text-4xl font-bold text-cyan-950 max-sm:leading-9 max-md:text-3xl">Depoimentos</h2>
+        <h2 class="text-4xl font-bold text-cyan-950 max-sm:leading-9 max-md:text-3xl animate-fade">Depoimentos</h2>
         <div class="flex flex-col gap-4">
             <div
-                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50  shrink-0 w-full h-min snap-start">
+                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50  shrink-0 w-full h-min snap-start animate-fade">
                 <div class="flex items-center gap-2">
                     <picture>
                         <img src="src/images/index/profile-picture.svg" alt="Foto de perfil"
@@ -270,7 +284,7 @@
                     eles sabiam meu nome completo. Mas soube que era mentira pois não tenho cachorro!"</p>
             </div>
             <div
-                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50  shrink-0 w-full h-min snap-start">
+                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50  shrink-0 w-full h-min snap-start animate-fade">
                 <div class="flex items-center gap-2">
                     <picture>
                         <img src="src/images/index/profile-picture.svg" alt="Foto de perfil"
@@ -295,7 +309,7 @@
                     novo."</p>
             </div>
             <div
-                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50  shrink-0 w-full h-min snap-start">
+                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50  shrink-0 w-full h-min snap-start animate-fade">
                 <div class="flex items-center gap-2">
                     <picture>
                         <img src="src/images/index/profile-picture.svg" alt="Foto de perfil"
@@ -317,7 +331,7 @@
                     mensagens antes de agir."</p>
             </div>
             <div
-                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50 shrink-0 w-full h-min snap-start">
+                class="flex flex-col gap-3 p-5 transition-all ease-in-out border border-gray-200 rounded-lg shadow-[0px_0px_5px_rgba(0,0,0,0.05)]  bg-gray-50 shrink-0 w-full h-min snap-start animate-fade">
                 <div class="flex items-center gap-2">
                     <picture>
                         <img src="src/images/index/profile-picture.svg" alt="Foto de perfil"

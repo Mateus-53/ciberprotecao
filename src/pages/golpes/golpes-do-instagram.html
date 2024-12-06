@@ -8,6 +8,7 @@
         content="Descubra os tipos de golpes mais comuns no Instagram e como evitá-los. Mantenha sua conta segura com nossas orientações práticas.">
     <link href="../../css/tailwind.css" rel="stylesheet">
     <link rel="shortcut icon" href="../../images/global/favicon.ico" type="image/x-icon">
+    <script src="../../js/animation.js" defer></script>
     <script src="../../js/return-page.js" defer></script>
     <script src="../../js/scroll-top.js" defer></script>
     <script src="../../js/dropdown.js" defer></script>
@@ -18,7 +19,7 @@
     <section class="flex flex-col w-full gap-8 p-20 transition-all ease-in-out bg-gray-100 max-md:p-10 max-sm:p-5">
         <a target="_parent" id="previousPageBtn">
             <button
-                class="flex items-center justify-center h-10 gap-1 px-5 transition-all ease-in-out bg-gray-100 border rounded-lg text-cyan-950 group border-cyan-950 hover:bg-cyan-950 hover:text-gray-50">
+                class="flex items-center justify-center h-10 gap-1 px-5 transition-all ease-in-out bg-gray-100 border rounded-lg text-cyan-950 group border-cyan-950 hover:bg-cyan-950 hover:text-gray-50 animate-fade">
                 <svg viewBox="0 0 25 24" xmlns="http://www.w3.org/2000/svg"
                     class="w-6 transition-all ease-in-out fill-current text-cyan-950 group-hover:text-gray-50">
                     <path
@@ -28,10 +29,12 @@
             </button>
         </a>
         <div class="flex flex-col gap-4">
-            <h2 class="text-4xl font-bold max-sm:leading-8 text-cyan-950 max-md:text-3xl max-sm:text-2xl">Golpes Mais
+            <h2 class="text-4xl font-bold max-sm:leading-8 text-cyan-950 max-md:text-3xl max-sm:text-2xl animate-fade">
+                Golpes Mais
                 Frequentes no Instagram: Veja Como Evitar
             </h2>
-            <p class="text-cyan-950"> O Instagram se tornou uma plataforma indispensável para interação, negócios e
+            <p class="text-cyan-950 animate-fade"> O Instagram se tornou uma plataforma indispensável para interação,
+                negócios e
                 entretenimento. No entanto, a facilidade de conectar-se com milhões de pessoas ao redor do mundo também
                 atrai golpistas que se aproveitam da
                 desatenção de alguns
@@ -41,7 +44,7 @@
             </p>
         </div>
         <!-- 1 -->
-        <div class="flex items-center gap-8 max-md:flex-col ">
+        <div class="flex items-center gap-8 max-md:flex-col animate-fade ">
             <picture class="max-md:w-full">
                 <img src="../../images/golpes/instagram/image-1.webp" alt="Imagem" loading="lazy"
                     class="object-cover object-center rounded-lg pointer-events-none select-none h-60 w-60 max-md:w-full bg-cyan-950"
@@ -79,7 +82,7 @@
             </div>
         </div>
         <!-- 2 -->
-        <div class="flex items-center gap-8 max-md:flex-col ">
+        <div class="flex items-center gap-8 max-md:flex-col animate-fade ">
             <picture class="max-md:w-full">
                 <img src="../../images/golpes/instagram/image-2.webp" alt="Imagem" loading="lazy"
                     class="object-cover object-center rounded-lg pointer-events-none select-none h-60 w-60 max-md:w-full bg-cyan-950"
@@ -117,7 +120,7 @@
             </div>
         </div>
         <!-- 3 -->
-        <div class="flex items-center gap-8 max-md:flex-col ">
+        <div class="flex items-center gap-8 max-md:flex-col animate-fade ">
             <picture class="max-md:w-full">
                 <img src="../../images/golpes/instagram/image-3.webp" alt="Imagem" loading="lazy"
                     class="object-cover object-center rounded-lg pointer-events-none select-none h-60 w-60 max-md:w-full bg-cyan-950"
@@ -157,7 +160,7 @@
             </div>
         </div>
         <!-- 4 -->
-        <div class="flex items-center gap-8 max-md:flex-col ">
+        <div class="flex items-center gap-8 max-md:flex-col animate-fade ">
             <picture class="max-md:w-full">
                 <img src="../../images/golpes/instagram/image-4.webp" alt="Imagem" loading="lazy"
                     class="object-cover object-center rounded-lg pointer-events-none select-none h-60 w-60 max-md:w-full bg-cyan-950"
@@ -196,7 +199,7 @@
             </div>
         </div>
         <!-- 5 -->
-        <div class="flex items-center gap-8 max-md:flex-col ">
+        <div class="flex items-center gap-8 max-md:flex-col animate-fade ">
             <picture class="max-md:w-full">
                 <img src="../../images/golpes/instagram/image-5.webp" alt="Imagem" loading="lazy"
                     class="object-cover object-center rounded-lg pointer-events-none select-none h-60 w-60 max-md:w-full bg-cyan-950"
@@ -234,7 +237,7 @@
             </div>
         </div>
         <!-- 6 -->
-        <div class="flex items-center gap-8 max-md:flex-col">
+        <div class="flex items-center gap-8 max-md:flex-col animate-fade">
             <picture class="max-md:w-full">
                 <img src="../../images/golpes/instagram/image-6.webp" alt="Imagem" loading="lazy"
                     class="object-cover object-center rounded-lg pointer-events-none select-none h-60 w-60 max-md:w-full bg-cyan-950"
@@ -263,7 +266,7 @@
                     </button>
                     <div
                         class="hidden w-3/4 p-4 transition-all ease-in-out border shadow-sm border-cyan-950 rounded-e-xl rounded-b-xl dropdownInfo max-xl:w-full bg-gray-50">
-                        <p class="text-cyan-950">Verifique a legitimidade dos sorteios nas páginas oficiais. Nunca
+                        <p class="text-cyan-950 ">Verifique a legitimidade dos sorteios nas páginas oficiais. Nunca
                             forneça informações sensíveis ou realize pagamentos
                             para participar de promoções.
                         </p>
@@ -272,10 +275,10 @@
             </div>
         </div>
         <div class="flex flex-col gap-4">
-            <h3 class="flex items-center gap-2 text-3xl font-semibold max-sm:text-2xl text-cyan-950">Dicas Gerais para
+            <h3 class="flex items-center gap-2 text-3xl font-semibold max-sm:text-2xl text-cyan-950 animate-fade">Dicas Gerais para
                 Prevenir Golpes no Instagram
             </h3>
-            <ul class="flex flex-col gap-2 list-disc list-inside text-cyan-950">
+            <ul class="flex flex-col gap-2 list-disc list-inside text-cyan-950 animate-fade">
                 <li>Ative a autenticação de dois fatores: Isso dificulta o acesso de invasores à sua conta.</li>
                 <li>Desconfie de contatos inesperados: Seja cético com mensagens de desconhecidos, especialmente as que
                     oferecem
@@ -286,7 +289,7 @@
                 <li>Denuncie perfis suspeitos: Ajude a plataforma a identificar golpistas.
                 </li>
             </ul>
-            <p class="font-medium text-cyan-950">Portanto, manter-se informado e atento é a melhor maneira de evitar
+            <p class="font-medium text-cyan-950 animate-fade">Portanto, manter-se informado e atento é a melhor maneira de evitar
                 prejuízos.
                 Lembre-se, o bom senso é seu maior aliado
                 no mundo digital.</p>
@@ -302,6 +305,7 @@
             <span class="max-sm:hidden">Voltar ao topo</span>
         </button>
     </section>
+
 </body>
 
 </html>
